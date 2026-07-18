@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Book Appointment - Hospital Management System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="top-bar">
+    <div class="logo">Hospital Management System</div>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="patients.html">Patients</a></li>
+        <li><a href="book-appointment.html">Appointments</a></li>
+        <li><a href="login.html">Logout</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="container">
+
+  <div class="card">
+    <h1 class="section-title">Book an Appointment</h1>
+    <p>Fill in the form below to schedule a visit with our doctors.</p>
+
+    <form action="#" method="post">
+      <div class="form-row">
+        <label>
+          Patient Name
+          <input type="text" name="patient_name" placeholder="Enter patient name">
+        </label>
+        <label>
+          Doctor
+          <select name="doctor">
+            <option value="">Select a doctor</option>
+            <option value="sarah">Dr. Mina Ashraf</option>
+            <option value="karim">Dr. Mario Ashraf</option>
+            <option value="laila">Dr. Demiana Frances</option>
+            <option value="omar">Dr. Medo Samy</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="form-row">
+        <label>
+          Department
+          <select name="department">
+            <option value="">Select a department</option>
+            <option value="cardiology">Cardiology</option>
+            <option value="neurology">Neurology</option>
+            <option value="dermatology">Dermatology</option>
+            <option value="pediatrics">Pediatrics</option>
+            <option value="orthopedics">Orthopedics</option>
+          </select>
+        </label>
+        <label>
+          Date
+          <input type="date" name="appointment_date">
+        </label>
+      </div>
+
+      <div class="form-row">
+        <label>
+          Time
+          <input type="time" name="appointment_time">
+        </label>
+      </div>
+
+      <label>
+        Notes
+        <textarea name="notes" placeholder="Write any additional notes here"></textarea>
+      </label>
+
+      <button type="submit" class="btn">Book Appointment</button>
+    </form>
+  </div>
+
+</section>
+
+<footer>
+  <p>Developed By: Meroooooo</p>
+</footer>
+
+</body>
+</html>
