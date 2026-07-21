@@ -241,3 +241,73 @@
     width: 100%;
   }
 }
+.about-preview {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  flex-wrap: wrap;
+}
+
+.about-preview__text {
+  flex: 2;
+  min-width: 280px;
+}
+
+.about-preview__facts {
+  flex: 1;
+  display: flex;
+  gap: var(--space-4);
+  min-width: 220px;
+}
+
+.about-fact {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-5);
+  flex: 1;
+  text-align: center;
+}
+
+.about-fact__value {
+  display: block;
+  color: var(--color-primary);
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+}
+
+.about-fact__label {
+  display: block;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  margin-top: var(--space-1);
+}
+
+.doctor-card {
+  text-align: center;
+}
+
+.doctor-card__avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: var(--color-surface);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--space-3) auto;
+}
+
+.doctor-card__specialty {
+  color: var(--color-primary);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .about-preview__facts {
+    width: 100%;
+  }
+}
