@@ -1,0 +1,96 @@
+.contact-form-card {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.map-placeholder {
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--color-surface);
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+}
+
+.map-placeholder__icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-2);
+}
+
+.map-placeholder__address {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  margin-top: var(--space-1);
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.faq-item {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-4) var(--space-5);
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.faq-item summary:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.faq-item p {
+  margin-top: var(--space-3);
+  margin-bottom: 0;
+}
+
+.emergency-banner {
+  background-color: var(--color-danger);
+  color: var(--color-surface);
+  text-align: center;
+}
+
+.emergency-banner__inner {
+  padding-top: var(--space-10);
+  padding-bottom: var(--space-10);
+}
+
+.emergency-banner h2 {
+  color: var(--color-surface);
+}
+
+.emergency-banner p {
+  color: var(--color-danger-light);
+  margin-bottom: var(--space-5);
+}
+
+.emergency-banner .btn-danger {
+  background-color: var(--color-surface);
+  color: var(--color-danger);
+}
+
+.emergency-banner .btn-danger:hover {
+  background-color: var(--color-danger-light);
+}
+
+@media (max-width: 768px) {
+  .map-placeholder {
+    padding: var(--space-6);
+  }
+}
