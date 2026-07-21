@@ -1,0 +1,98 @@
+hospital-management-system/
+│
+├── assets/
+│   ├── css/
+│   │      style.css
+│   │      auth.css
+│   │      dashboard.css
+│   │      profile.css
+│   │      patients.css
+│   │      doctors.css
+│   │      appointments.css
+│   │      home.css
+│   │
+│   ├── js/
+│   │      main.js
+│   │      auth.js
+│   │      appointment.js
+│   │      profile.js
+│   │
+│   ├── images/
+│   │      logo.png
+│   │      banner.jpg
+│   │      doctors/
+│   │      users/
+│   │
+│   └── uploads/
+│          profile/
+│          medical-history/
+│
+│
+├── config/
+│      database.php
+│      session.php
+│
+│
+├── includes/
+│      header.php
+│      navbar.php
+│      sidebar.php
+│      footer.php
+│      functions.php
+│
+│
+├── auth/
+│      login.php
+│      register.php
+│      logout.php
+│
+│
+├── patient/
+│      dashboard.php
+│      profile.php
+│      edit-profile.php
+│      book-appointment.php
+│      appointments.php
+│      doctors.php
+│      doctor-profile.php
+│      medical-history.php
+│      diagnosis-history.php
+│      favourite-doctors.php
+│
+│
+├── doctor/
+│      dashboard.php
+│      profile.php
+│      edit-profile.php
+│      appointments.php
+│      patients.php
+│      patient-details.php
+│      medical-record.php
+│      diagnosis.php
+│      schedule.php
+│
+│
+├── public/
+│      index.php
+│      about.php
+│      contact.php
+│      departments.php
+│
+│
+├── handlers/
+│      login-handler.php
+│      register-handler.php
+│      update-profile.php
+│      upload-history.php
+│      appointment-handler.php
+│      diagnosis-handler.php
+│      favourite-handler.php
+│
+│
+├── database/
+│      hospital.sql
+│
+│
+├── README.md
+│
+└── .gitignore
