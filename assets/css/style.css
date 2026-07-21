@@ -321,6 +321,130 @@ textarea:focus {
   font-weight: 600;
 }
 
+.section {
+  padding: var(--space-10) 0;
+}
+
+.section--muted {
+  background-color: var(--color-primary-light);
+}
+
+.section-heading {
+  color: var(--color-primary);
+  font-size: var(--font-size-xl);
+}
+
+.section-heading--center {
+  text-align: center;
+}
+
+.section-subtext {
+  text-align: center;
+  margin-top: calc(var(--space-2) * -1);
+  margin-bottom: var(--space-8);
+}
+
+.hero {
+  background-color: var(--color-primary-light);
+}
+
+.hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-8);
+  flex-wrap: wrap;
+  padding-top: var(--space-10);
+  padding-bottom: var(--space-10);
+}
+
+.hero__text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero__eyebrow {
+  display: inline-block;
+  color: var(--color-primary);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-3);
+}
+
+.hero__title {
+  font-size: 2.75rem;
+  margin-bottom: var(--space-4);
+}
+
+.hero__subtitle {
+  font-size: var(--font-size-lg);
+  max-width: 520px;
+  margin-bottom: var(--space-6);
+}
+
+.hero__actions {
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.hero__visual {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.hero__badge {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: var(--color-surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  box-shadow: var(--shadow-md);
+}
+
+.stats-grid {
+  display: flex;
+  gap: var(--space-5);
+  flex-wrap: wrap;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-6);
+}
+
+.why-item {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+}
+
+.why-item__icon {
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: var(--color-surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.why-item h4 {
+  margin-bottom: var(--space-1);
+}
+
 .site-footer {
   background-color: var(--color-surface);
   text-align: center;
@@ -364,5 +488,9 @@ textarea:focus {
 
   .form-row .form-group {
     min-width: 100%;
+  }
+
+  .hero__title {
+    font-size: 2rem;
   }
 }
