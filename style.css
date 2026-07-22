@@ -360,3 +360,20 @@ footer p {
         max-width: 100%;
     }
 }
+
+a.btn-delete {
+    background-color: #ef4444 !important;
+    color: #ffffff !important;
+    padding: 6px 14px !important;
+    border-radius: 6px !important;
+    text-decoration: none !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    display: inline-block !important;
+    transition: background-color 0.2s ease !important;
+}
+
+a.btn-delete:hover {
+    background-color: #dc2626 !important;
+    color: #ffffff !important;
+}
