@@ -96,3 +96,53 @@ hospital-management-system/
 ├── README.md
 │
 └── .gitignore
+
+
+
+
+
+
+
+hospital-management-system/
+│
+├── assets/
+│   ├── css/
+│   │   ├── style.css
+│   │   ├── auth.css
+│   │   └── dashboard.css
+│   ├── js/
+│   │   └── main.js
+│   ├── images/
+│   └── uploads/
+│
+├── config/
+│
+├── includes/
+│
+├── public/
+│   ├── index.php
+│   ├── about.php
+│   ├── departments.php
+│   └── contact.php
+│
+├── auth/
+│   ├── login.php
+│   ├── register.php
+│   └── logout.php
+│
+├── patient/
+│   ├── dashboard.php
+│   ├── profile.php
+│   ├── doctors.php
+│   └── appointments.php
+│
+├── doctor/
+│   ├── dashboard.php
+│   ├── profile.php
+│   ├── patients.php
+│   ├── appointments.php
+│   └── schedule.php
+│
+├── handlers/
+├── database/
+└── README.md

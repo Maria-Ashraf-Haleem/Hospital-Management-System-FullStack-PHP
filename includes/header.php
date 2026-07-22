@@ -8,6 +8,9 @@
     <?php if (!empty($page_css)): ?>
     <link rel="stylesheet" href="<?php echo $page_css; ?>">
     <?php endif; ?>
+    <?php if (!empty($page_css2)): ?>
+    <link rel="stylesheet" href="<?php echo $page_css2; ?>">
+    <?php endif; ?>
 </head>
 <body>
 
