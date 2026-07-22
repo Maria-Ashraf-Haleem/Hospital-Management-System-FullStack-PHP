@@ -127,3 +127,13 @@ HMS/
 ├── register.php
 ├── .gitignore
 └── README.md
+
+## Author
+
+**Maria Ashraf Haleem**
+
+Software Engineering Student
+
+Faculty of Computers and Artificial Intelligence
+
+Interested in Artificial Intelligence, Machine Learning, Intelligent Systems, and Software Engineering.
