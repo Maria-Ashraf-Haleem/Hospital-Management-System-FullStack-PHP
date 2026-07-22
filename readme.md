@@ -68,6 +68,7 @@ Complete patient management system to maintain medical history and personal prof
 - View contact details and history
 - Assign patients to specific doctors or appointments
 
+![Patients Page](screenshots/patients.png)
 
 ---
 
